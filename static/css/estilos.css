@@ -1,0 +1,44 @@
+.body {
+    background-color: rgba(255, 0, 0, 0.735);
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(16, 117, 213);
+}
+
+.inicio_sesion {
+    background-color: rgb(255, 0, 0);
+}
+
+.imagen_usuario {
+    width: 15px;
+    height: 15px;
+}
+
+.navbar {
+    background-color: rgba(0, 187, 255, 0.79);
+}
+
+.imagen_fondo {
+    position: relative;
+    z-index: -1;
+}
+
+.descripcion {
+    z-index: 1;
+    font-style: italic;
+}
+
+textarea {
+    width: 100%;
+
+}
+
+:root {
+    --max: 18rem
+}
+
+.card-img-top {
+    width: 100%;
+    max-width: var(--max);
+    height: calc(var(--max));
+    object-fit: contain;
+}
